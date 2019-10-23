@@ -7,9 +7,9 @@ from pygame.locals import *
 
 pygame.init()
 
-
-DISPLAYSURF = pygame.display.set_mode((400, 300))
-pygame.display.set_caption('First Game')
+screen=pygame.display.set_mode((500,600))
+background = pygame.image.load('background.bmp').convert()
+screen.blit(background, (0, 0))
 
 
 # set used colors
@@ -23,7 +23,7 @@ x=60
 y=50
 width=20
 height=10
-vel=5
+vel=1
 isJump=False
 
 
@@ -38,13 +38,13 @@ pygame.mouse.set_visible(True)
 
 while True: # main game loop
 
-    Circleplace=pygame.draw.circle(DISPLAYSURF, RED, (24, 24), 7)
+    Circleplace=pygame.draw.circle(screen, RED, (24, 24), 7)
     pos = pygame.mouse.get_pos()
     pressed=pygame.mouse.get_pressed()
 
 
     if Circleplace.collidepoint(pos) and pressed:
-        pygame.draw.ellipse(DISPLAYSURF, GREEN, (20,20,10,25),0)
+        pygame.draw.ellipse(screen, GREEN, (20,20,10,25),0)
 
 
     pygame.display.update()
@@ -68,7 +68,7 @@ while True: # main game loop
         y += vel
 
 
-    DISPLAYSURF.fill((0,0,0))
-    pygame.draw.rect(DISPLAYSURF,RED,(x,y,width,height))
+    #screen.fill((0,0,0))
+    pygame.draw.rect(screen,RED,(x,y,width,height))
     pygame.display.update()
 
