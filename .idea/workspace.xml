@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73881fb-3811-41f8-b781-d5887d8f7f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Game_Valentine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Game_Valentine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BODY_skeleton 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BODY_skeleton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/desert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/foresttiles.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hg03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hg04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hg05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hg06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rpgcritters2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/skeleton1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/skeleton2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/skeleton3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/skeleton4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
     </list>
@@ -18,20 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="442">
+              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -55,15 +57,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/testing.py" />
+        <option value="$PROJECT_DIR$/../SoccerStats/SoccerStats.py" />
         <option value="$PROJECT_DIR$/game.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="522" />
-    <option name="y" value="40" />
-    <option name="width" value="918" />
-    <option name="height" value="767" />
+    <option name="x" value="1945" />
+    <option name="y" value="-10" />
+    <option name="width" value="1932" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -78,15 +81,6 @@
               <item name="Game_Valentine" type="b2602c69:ProjectViewProjectNode" />
               <item name="Game_Valentine" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Game_Valentine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Game_Valentine" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Game_Valentine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -95,7 +89,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testing.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -190,18 +184,26 @@
       <option name="presentableId" value="Default" />
       <updated>1548894129804</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/venivateva/Game_Valentine&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;game.py">
+      <created>1573043384104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573043384104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14301191" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34669557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -217,6 +219,10 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/venivateva/Game_Valentine&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;game.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/venivateva/Game_Valentine&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;game.py" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Pygame-PythonGame-master/game.py" />
     <entry file="file://$PROJECT_DIR$/testing.py">
@@ -229,10 +235,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../SoccerStats/SoccerStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="442">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

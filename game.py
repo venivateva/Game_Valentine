@@ -52,6 +52,13 @@ class MyPlayer(pygame.sprite.Sprite):
                 self.frame=0
             self.image=self.images[self.frame//ani]
 
+        # moving down
+        if self.movey < 0:
+            self.frame += 1
+            if self.frame > 3 * ani:
+                self.frame = 0
+            self.image = self.images[self.frame // ani]
+
 
 #frames settings
 
@@ -61,10 +68,13 @@ clock=pygame.time.Clock()
 pygame.init()
 
 
-mainscreen= pygame.display.set_mode((400, 300))
+width_display = 400
+lenght_display= 300
+
+mainscreen= pygame.display.set_mode((width_display, lenght_display))
 background = pygame.image.load(os.path.join('data','background.png')).convert()
 backfropbox= mainscreen.get_rect()
-pygame.display.set_caption('First Game')
+pygame.display.set_caption('Lindsay Loves Murder and Sloths')
 
 
 
@@ -84,7 +94,7 @@ player.rect.x = 0   # go to x
 player.rect.y = 0   # go to y
 player_list = pygame.sprite.Group()
 player_list.add(player)
-vel=5
+vel=3
 
 
 # set background music
@@ -98,13 +108,9 @@ pygame.mouse.set_visible(True)
 
 while True: # main game loop
 
-    Circleplace=pygame.draw.circle(mainscreen, RED, (24, 24), 7)
-    pos = pygame.mouse.get_pos()
-    pressed=pygame.mouse.get_pressed()
 
-
-    if Circleplace.collidepoint(pos) and pressed:
-        pygame.draw.ellipse(mainscreen, GREEN, (20,20,10,25),0)
+    #pos = pygame.mouse.get_pos()
+    #pressed=pygame.mouse.get_pressed()
 
 
     pygame.display.update()
@@ -119,25 +125,23 @@ while True: # main game loop
                 player.movement(-vel,0)
             if event.key == pygame.K_RIGHT:
                 player.movement(vel,0)
+            if event.key == pygame.K_DOWN:
+                player.movement(0, vel)
+            if event.key == pygame.K_UP:
+                player.movement(0, -vel)
 
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT:
                 player.movement(vel, 0)
             if event.key == pygame.K_RIGHT:
                 player.movement(-vel, 0)
-
-        if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_DOWN:
-                player.movement(-vel, -1)
+                player.movement(0, -vel)
             if event.key == pygame.K_UP:
-                player.movement(vel, 1)
+                player.movement(0, vel)
 
-        if event.type == pygame.KEYUP:
-            if event.key == pygame.K_DOWN:
-                player.movement(vel, 1)
-            if event.key == pygame.K_UP:
-                player.movement(-vel, -1)
-
+        #if player.rect.x > width_display:
+            #pygame.quit()
 
 
 
